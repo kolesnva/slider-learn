@@ -1,0 +1,26 @@
+body {
+  background-color: teal;
+}
+img {
+  display: block;
+}
+.slider__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+}
+.slider {
+  min-width: 0;
+}
+.slick-list {
+  overflow: hidden;
+}
+.slick-track {
+  display: flex;
+}
+.slick-arrow {
+  display: none;
+  opacity: 0;
+  pointer-events: none;
+}
